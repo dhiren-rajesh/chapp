@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-	--dark-color-a: #667aff;
-	--dark-color-b: #7386ff;
-	--light-color: #e6e9ff;
-	--success-color: #5cb85c;
-	--error-color: #d9534f;
+	--dark-color: #0892d0;
+	--light-color: #84eab5;
+	--success-color: #00ff00;
+	--error-color: #ff0000;
 }
 
 * {
@@ -33,7 +32,7 @@ a {
 	cursor: pointer;
 	padding: 5px 15px;
 	background: var(--light-color);
-	color: var(--dark-color-a);
+	color: var(--dark-color);
 	border: 0;
 	font-size: 17px;
 }
@@ -48,7 +47,7 @@ a {
 }
 
 .chat-header {
-	background: var(--dark-color-a);
+	background: var(--dark-color);
 	color: #fff;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -64,7 +63,7 @@ a {
 }
 
 .chat-sidebar {
-	background: var(--dark-color-b);
+	background: var(--dark-color);
 	color: #fff;
 	padding: 20px 20px 60px;
 	overflow-y: scroll;
@@ -102,7 +101,7 @@ a {
 .chat-messages .message .meta {
 	font-size: 15px;
 	font-weight: bold;
-	color: var(--dark-color-b);
+	color: var(--dark-color);
 	opacity: 0.7;
 	margin-bottom: 7px;
 }
@@ -113,7 +112,7 @@ a {
 
 .chat-form-container {
 	padding: 20px 30px;
-	background-color: var(--dark-color-a);
+	background-color: var(--dark-color);
 }
 
 .chat-form-container form {
@@ -137,14 +136,14 @@ a {
 .join-header {
 	text-align: center;
 	padding: 20px;
-	background: var(--dark-color-a);
+	background: var(--dark-color);
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
 
 .join-main {
 	padding: 30px 40px;
-	background: var(--dark-color-b);
+	background: var(--dark-color);
 }
 
 .join-main p {
@@ -187,4 +186,9 @@ a {
 	.chat-sidebar {
 		display: none;
 	}
+}
+
+.fas,
+.btn {
+	color: white;
 }
